@@ -11,7 +11,9 @@ radomDiceImg2.setAttribute("src", randomImage2);
 if(randomNo1>randomNo2){
   document.querySelector("h1").innerText="Play 1 wins!!!";
 }
-else{
+else if(randomNo2>randomNo1){
   document.querySelector("h1").innerText="Play 2 wins!!!";
-
+}
+else{
+  document.querySelector("h1").innerText="Draw !!!";
 }
