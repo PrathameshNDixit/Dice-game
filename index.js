@@ -9,10 +9,10 @@ var radomDiceImg2 = document.querySelectorAll("img")[1];
 radomDiceImg2.setAttribute("src", randomImage2);
 
 if(randomNo1>randomNo2){
-  document.querySelector("h1").innerText="Play 1 wins!!!";
+  document.querySelector("h1").innerText="Player 1 wins!!!";
 }
 else if(randomNo2>randomNo1){
-  document.querySelector("h1").innerText="Play 2 wins!!!";
+  document.querySelector("h1").innerText="Player 2 wins!!!";
 }
 else{
   document.querySelector("h1").innerText="Draw !!!";
